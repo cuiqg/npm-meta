@@ -5,7 +5,7 @@ const nitroPkg = createRequire(import.meta.url)("nitropack/package.json")
 
 //https://nitro.unjs.io/config
 export default defineNitroConfig({
-  preset: 'vercel',
+  preset: 'netlify_edge',
   srcDir: "./server",
   baseURL: "/",
   timing: true,
