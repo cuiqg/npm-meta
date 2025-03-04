@@ -6,9 +6,8 @@ dist
 .output
 .env
 .vercel
+.netlify
 .idea
 .vscode
 !.vscode/settings.json
 .DS_Store
-
-.vercel
