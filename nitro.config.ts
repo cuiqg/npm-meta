@@ -7,7 +7,7 @@ export default defineNitroConfig({
   preset: 'vercel',
   srcDir: "server",
   routeRules: {
-    "**": {
+    ".*": {
       cors: true
     }
   },
