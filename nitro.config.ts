@@ -10,7 +10,7 @@ export default defineNitroConfig({
   baseURL: "/",
   timing: true,
   routeRules: {
-    ".*": {
+    "**": {
       cors: true
     }
   },
