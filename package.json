@@ -1,5 +1,6 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nitro build",
     "dev": "nitro dev",
@@ -10,5 +11,8 @@
     "dayjs": "^1.11.13",
     "lru-cache": "^11.0.2",
     "nitropack": "latest"
+  },
+  "engines": {
+    "node": ">=20.18.1"
   }
 }
